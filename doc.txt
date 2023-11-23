@@ -1,0 +1,23 @@
+Running the app
+Prerequisites:
+
+You should have Python and pip (Python package manager) installed on your system.
+
+1.Clone the Django Project:
+
+2.Open the project on vscode .
+3.Install Dependencies:
+
+    Use pip to install the project's dependencies listed in the requirements.txt file using the command below:
+    pip install -r requirements.txt
+    This will install Django and other required packages.
+
+4.Run the Development Server:
+
+    Start the Django development server using the command below:
+    python manage.py runserver
+    The server should start, and you'll see output similar to the following:
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CONTROL-C.
+5.Access Your Django App:
+    Open a web browser and go to the URL provided by the development server (e.g., http://127.0.0.1:8000/). You should see your Django app running.
