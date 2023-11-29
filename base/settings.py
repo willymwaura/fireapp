@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-8pprvvx-k6%z#890f+_ztf)$mwsb+cw6d4*5@y^4vpgf0s_biq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fireapp-production.up.railway.app','127.0.0.1:8000']
+
 
 
 # Application definition

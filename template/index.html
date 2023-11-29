@@ -136,7 +136,7 @@
     {% csrf_token %}
     
     <div class="form">
-        <div class="subtitle" style="color:red;">KIAMBU COUNTY FIRE DEPARTMENT</div>
+        <div class="subtitle" style="color:red;"> FIRE DEPARTMENT</div>
        
         <div class="input-container ic1">
             <input id="phoneNumber" name="phoneNumber" class="input" type="text" placeholder=" " />
@@ -160,9 +160,9 @@
         <button type="text" id="submitReport" class="submit">Report Fire</button>
       
     </div>
-    <a href="{% url 'login_page' %}">Login</a>
-    <a href="{% url 'heatmap' %}">See fire heatmap</a>
-    <a href="{% url 'preventitive' %}">Fire preventitive mesaures</a>
+   <p> <a href="{% url 'login_page' %}">Login</a></p>
+   <p> <a href="{% url 'heatmap' %}">See fire heatmap</a></p>
+   <p> <a href="{% url 'preventitive' %}">Fire preventitive mesaures</a></p>
     
    
   </form>
